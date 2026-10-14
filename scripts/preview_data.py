@@ -8,8 +8,11 @@ from io import BytesIO
 
 
 # Path of the new dataset
-DATASET_PATH = r"C:\Users\DELL\Downloads\meta_Amazon_Fashion.jsonl\meta_Amazon_Fashion.jsonl"
 
+DATASET_PATH = (
+    r"C:\Users\DELL\OneDrive\Belgeler\GitHub"
+    r"\AI-Shopping-Assistant\data\raw\meta_Amazon_Fashion.jsonl"
+)
 
 def load_first_products(file_path, count=5):
     products = []
