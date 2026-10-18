@@ -50,4 +50,26 @@ class ShoppingRequest(BaseModel):
     """default_factory tells Pydantic: if the caller doesn't provide filters, 
     create a new, empty ProductFilters object automatically."""
     budget: Budget = Field(default_factory=Budget)
-    language: Literal["en", "ar", "mixed"]
+    language: Literal["en"] = "en"
+
+
+"""
+example of a JSON object :
+{
+  "category": "handbag",
+  "search_query": "black handbag for university",
+  "filters": {
+    "color": "black",
+    "brand": null,
+    "size": null,
+    "occasion": "university"
+  },
+  "budget": {
+    "min": null,
+    "max": 1500,
+    "currency": "EGP"
+  },
+  "language": "en"
+}
+
+"""
