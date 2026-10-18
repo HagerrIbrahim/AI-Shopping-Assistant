@@ -3,6 +3,7 @@
 venv/
 **/.venv/
 **/venv/
+chatbot/tests/evaluation_report*.json
 
 # Python cache files
 __pycache__/

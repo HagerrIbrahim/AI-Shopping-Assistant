@@ -1,0 +1,687 @@
+[
+  {
+    "id": 1,
+    "message": "looking for a navy blazer for a job interview, max 3k",
+    "expected": {
+      "category": "blazers",
+      "search_query_keywords": [
+        "blazer",
+        "navy"
+      ],
+      "filters": {
+        "color": "navy",
+        "brand": null,
+        "size": null,
+        "occasion": "job interview"
+      },
+      "budget": {
+        "min": null,
+        "max": 3000,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "message": "Adidas running shoes size 42 please",
+    "expected": {
+      "category": "sneakers",
+      "search_query_keywords": [
+        "running shoes",
+        "sneakers",
+        "adidas"
+      ],
+      "filters": {
+        "color": null,
+        "brand": "Adidas",
+        "size": "42",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "message": "need a green dress for my sisters engagement, around 2000 EGP max",
+    "expected": {
+      "category": "dresses",
+      "search_query_keywords": [
+        "dress",
+        "green"
+      ],
+      "filters": {
+        "color": "green",
+        "brand": null,
+        "size": null,
+        "occasion": "engagement"
+      },
+      "budget": {
+        "min": null,
+        "max": 2000,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "message": "beige elegant coat, size M",
+    "expected": {
+      "category": "coats",
+      "search_query_keywords": [
+        "coat",
+        "beige"
+      ],
+      "filters": {
+        "color": "beige",
+        "brand": null,
+        "size": "M",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "message": "cheap white t-shirt for the gym, under 300",
+    "expected": {
+      "category": "t-shirts",
+      "search_query_keywords": [
+        "t-shirt",
+        "white"
+      ],
+      "filters": {
+        "color": "white",
+        "brand": null,
+        "size": null,
+        "occasion": "gym"
+      },
+      "budget": {
+        "min": null,
+        "max": 300,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "message": "black heels for a graduation party, between 800 and 1500",
+    "expected": {
+      "category": "heels",
+      "search_query_keywords": [
+        "heels",
+        "black"
+      ],
+      "filters": {
+        "color": "black",
+        "brand": null,
+        "size": null,
+        "occasion": "graduation party"
+      },
+      "budget": {
+        "min": 800,
+        "max": 1500,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "message": "Zara jeans size 30, blue",
+    "expected": {
+      "category": "pants",
+      "search_query_keywords": [
+        "jeans",
+        "denim pant",
+        "blue",
+        "zara"
+      ],
+      "filters": {
+        "color": "blue",
+        "brand": "Zara",
+        "size": "30",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "message": "gift scarf for my mom, 400 to 700 EGP",
+    "expected": {
+      "category": "scarves",
+      "search_query_keywords": [
+        "scarf"
+      ],
+      "filters": {
+        "color": null,
+        "brand": null,
+        "size": null,
+        "occasion": "gift"
+      },
+      "budget": {
+        "min": 400,
+        "max": 700,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "message": "I want a leather jacket, brown, size L, not more than 5000",
+    "expected": {
+      "category": "jackets",
+      "search_query_keywords": [
+        "leather jacket",
+        "brown"
+      ],
+      "filters": {
+        "color": "brown",
+        "brand": null,
+        "size": "L",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 5000,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "message": "Puma hoodie grey",
+    "expected": {
+      "category": "hoodies",
+      "search_query_keywords": [
+        "hoodie",
+        "grey",
+        "puma"
+      ],
+      "filters": {
+        "color": "grey",
+        "brand": "Puma",
+        "size": null,
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "message": "sandals for the beach, any color, under 600",
+    "expected": {
+      "category": "sandals",
+      "search_query_keywords": [
+        "sandals"
+      ],
+      "filters": {
+        "color": null,
+        "brand": null,
+        "size": null,
+        "occasion": "beach"
+      },
+      "budget": {
+        "min": null,
+        "max": 600,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "message": "pink hijab for everyday use, 200-400 egp",
+    "expected": {
+      "category": "hijabs",
+      "search_query_keywords": [
+        "hijab",
+        "pink"
+      ],
+      "filters": {
+        "color": "pink",
+        "brand": null,
+        "size": null,
+        "occasion": "everyday"
+      },
+      "budget": {
+        "min": 200,
+        "max": 400,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "message": "black suit for my brother's wedding, size 50, up to 8000",
+    "expected": {
+      "category": "suits",
+      "search_query_keywords": [
+        "suit",
+        "black"
+      ],
+      "filters": {
+        "color": "black",
+        "brand": null,
+        "size": "50",
+        "occasion": "wedding"
+      },
+      "budget": {
+        "min": null,
+        "max": 8000,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "message": "formal shoes brown size 44",
+    "expected": {
+      "category": "shoes",
+      "search_query_keywords": [
+        "formal shoes",
+        "brown"
+      ],
+      "filters": {
+        "color": "brown",
+        "brand": null,
+        "size": "44",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "message": "need a backpack for school, under 900",
+    "expected": {
+      "category": "backpacks",
+      "search_query_keywords": [
+        "backpack"
+      ],
+      "filters": {
+        "color": null,
+        "brand": null,
+        "size": null,
+        "occasion": "school"
+      },
+      "budget": {
+        "min": null,
+        "max": 900,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "message": "Levis denim jacket size S, between 2000 and 3500",
+    "expected": {
+      "category": "jackets",
+      "search_query_keywords": [
+        "denim jacket",
+        "levi's"
+      ],
+      "filters": {
+        "color": null,
+        "brand": "Levi's",
+        "size": "S",
+        "occasion": null
+      },
+      "budget": {
+        "min": 2000,
+        "max": 3500,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "message": "red sweater under 1200",
+    "expected": {
+      "category": "sweaters",
+      "search_query_keywords": [
+        "sweater",
+        "red"
+      ],
+      "filters": {
+        "color": "red",
+        "brand": null,
+        "size": null,
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 1200,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "message": "white abaya for Eid",
+    "expected": {
+      "category": "abayas",
+      "search_query_keywords": [
+        "abaya",
+        "white"
+      ],
+      "filters": {
+        "color": "white",
+        "brand": null,
+        "size": null,
+        "occasion": "Eid"
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "message": "H&M black skirt size XS under 500",
+    "expected": {
+      "category": "skirts",
+      "search_query_keywords": [
+        "skirt",
+        "black",
+        "h&m"
+      ],
+      "filters": {
+        "color": "black",
+        "brand": "H&M",
+        "size": "XS",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 500,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "message": "sports bra size M black, under 600",
+    "expected": {
+      "category": "bras",
+      "search_query_keywords": [
+        "sports bra",
+        "black"
+      ],
+      "filters": {
+        "color": "black",
+        "brand": null,
+        "size": "M",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 600,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "message": "men's watch silver for the office, between 1500 and 4000",
+    "expected": {
+      "category": "watches",
+      "search_query_keywords": [
+        "watch",
+        "silver"
+      ],
+      "filters": {
+        "color": "silver",
+        "brand": null,
+        "size": null,
+        "occasion": "office"
+      },
+      "budget": {
+        "min": 1500,
+        "max": 4000,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "message": "Skechers walking shoes 40 white under 2500",
+    "expected": {
+      "category": "shoes",
+      "search_query_keywords": [
+        "walking shoes",
+        "white",
+        "skechers"
+      ],
+      "filters": {
+        "color": "white",
+        "brand": "Skechers",
+        "size": "40",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 2500,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "message": "I'm looking for a clutch for a party, gold color",
+    "expected": {
+      "category": "clutches",
+      "search_query_keywords": [
+        "clutch",
+        "gold"
+      ],
+      "filters": {
+        "color": "gold",
+        "brand": null,
+        "size": null,
+        "occasion": "party"
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "message": "pajama set size L, up to 800",
+    "expected": {
+      "category": "pajamas",
+      "search_query_keywords": [
+        "pajama set"
+      ],
+      "filters": {
+        "color": null,
+        "brand": null,
+        "size": "L",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 800,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "message": "sunglasses black Ray-Ban under 3000",
+    "expected": {
+      "category": "sunglasses",
+      "search_query_keywords": [
+        "sunglasses",
+        "black",
+        "ray-ban"
+      ],
+      "filters": {
+        "color": "black",
+        "brand": "Ray-Ban",
+        "size": null,
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 3000,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "message": "navy tie for a business conference",
+    "expected": {
+      "category": "ties",
+      "search_query_keywords": [
+        "tie",
+        "navy"
+      ],
+      "filters": {
+        "color": "navy",
+        "brand": null,
+        "size": null,
+        "occasion": "business conference"
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "message": "boots for hiking size 43, max 3500",
+    "expected": {
+      "category": "shoes",
+      "search_query_keywords": [
+        "hiking boots"
+      ],
+      "filters": {
+        "color": null,
+        "brand": null,
+        "size": "43",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 3500,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "message": "white shirt for school, kid is 12 years old",
+    "expected": {
+      "category": "shirts",
+      "search_query_keywords": [
+        "shirt",
+        "white"
+      ],
+      "filters": {
+        "color": "white",
+        "brand": null,
+        "size": "12 years",
+        "occasion": "school"
+      },
+      "budget": {
+        "min": null,
+        "max": null,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "message": "Find me a warm puffer jacket in olive green, size M, up to 4000 EGP",
+    "expected": {
+      "category": "jackets",
+      "search_query_keywords": [
+        "puffer jacket",
+        "olive green"
+      ],
+      "filters": {
+        "color": "olive green",
+        "brand": null,
+        "size": "M",
+        "occasion": null
+      },
+      "budget": {
+        "min": null,
+        "max": 4000,
+        "currency": "EGP"
+      }
+    }
+  },
+   {
+    "id": 30,
+    "message": "Can you find a brown leather belt for everyday wear, preferably under 500 EGP?",
+    "expected": {
+      "category": "belts",
+      "search_query_keywords": [
+        "leather belt",
+        "brown"
+      ],
+      "filters": {
+        "color": "brown",
+        "brand": null,
+        "size": null,
+        "occasion": "everyday"
+      },
+      "budget": {
+        "min": null,
+        "max": 500,
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+  "id": 31,
+  "message": "I need a jeans jacket in dark blue with size M preferably under 2,500 EGP",
+  "expected": {
+    "category": "jackets",
+    "search_query_keywords": [
+      "jeans jacket",
+      "denim jacket",
+      "dark blue"
+    ],
+    "filters": {
+      "color": "dark blue",
+      "brand": null,
+      "size": "M",
+      "occasion": null
+    },
+    "budget": {
+      "min": null,
+      "max": 2500,
+      "currency": "EGP"
+    }
+  }
+}
+]
