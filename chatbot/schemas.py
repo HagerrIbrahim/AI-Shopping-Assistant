@@ -12,6 +12,7 @@ class ProductFilters(BaseModel):
     color: str | None = None
     brand: str | None = None
     size: str | None = None
+    gender: str | None = None
     occasion: str | None = None
 
 
@@ -62,6 +63,7 @@ example of a JSON object :
     "color": "black",
     "brand": null,
     "size": null,
+    "gender": null,
     "occasion": "university"
   },
   "budget": {
